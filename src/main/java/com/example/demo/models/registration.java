@@ -76,6 +76,11 @@ public class registration {
 		this.branch = branch;
 		this.mobile = mobile;
 	}
+
+	public registration() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 

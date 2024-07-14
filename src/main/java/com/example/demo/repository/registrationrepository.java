@@ -7,4 +7,6 @@ import com.example.demo.models.registration;
 @Repository
 public interface registrationrepository extends CrudRepository<registration, Integer>{
 
+	registration findByEmail(String email);
+
 }
